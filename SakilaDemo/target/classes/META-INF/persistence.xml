@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.dreamer.sakilademo.CustomerList</class>
+    <class>com.dreamer.sakilademo.Store</class>
+    <class>com.dreamer.sakilademo.Country</class>
+    <class>com.dreamer.sakilademo.FilmActor</class>
+    <class>com.dreamer.sakilademo.Actor</class>
+    <class>com.dreamer.sakilademo.FilmList</class>
+    <class>com.dreamer.sakilademo.Category</class>
+    <class>com.dreamer.sakilademo.Payment</class>
+    <class>com.dreamer.sakilademo.Rental</class>
+    <class>com.dreamer.sakilademo.NicerButSlowerFilmList</class>
+    <class>com.dreamer.sakilademo.Customer</class>
+    <class>com.dreamer.sakilademo.Address</class>
+    <class>com.dreamer.sakilademo.Film</class>
+    <class>com.dreamer.sakilademo.FilmCategory</class>
+    <class>com.dreamer.sakilademo.Inventory</class>
+    <class>com.dreamer.sakilademo.Language</class>
+    <class>com.dreamer.sakilademo.StaffList</class>
+    <class>com.dreamer.sakilademo.SalesByStore</class>
+    <class>com.dreamer.sakilademo.City</class>
+    <class>com.dreamer.sakilademo.Staff</class>
+    <class>com.dreamer.sakilademo.FilmText</class>
+    <class>com.dreamer.sakilademo.ActorInfo</class>
+    <class>com.dreamer.sakilademo.SalesByFilmCategory</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/sakila?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="lyjx100pre"/>
+    </properties>
+  </persistence-unit>
+</persistence>
